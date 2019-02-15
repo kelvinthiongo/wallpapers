@@ -1,0 +1,103 @@
+.navbar-inverse{
+    background-color: #063564;
+}
+.navbar{
+    display: noned;
+}
+
+.text-white{
+    color: white;
+}
+footer {
+    background-color: #063564;
+    padding: 25px;
+    color: white;
+}
+
+
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    min-height: 200px;
+}
+
+
+.well p {
+    font-family: 'Alegreya Sans';
+    font-style: regular;
+    font-size: 40px;
+    color: #063564 ;
+}
+
+.text{
+    font-family: 'Yellowtail', cursive;
+    font-style: regular;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    color: #063564 ;
+}
+.yellowtail{
+    font-family: 'Yellowtail', cursive;
+    font-style: regular;
+    color: #063564 ;
+}
+
+.normal-font{
+    font-size: 30px;
+}
+.heading{
+    font-weight: bold;
+    color: #063564 ;
+}
+
+.buy-button{
+    position: absolute;
+    top: 77%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #063564;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.see-button{
+    background-color: #063564;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 3%;
+}
+
+.first-image{
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(128, 223, 255, 0.2);
+}
+hr{ 
+    height: 5px;
+    color: #063564;
+    background-color: #063564;
+    border: none;
+}
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+    .container{
+        margin: 0px;
+        padding: 0px
+    }
+}
