@@ -14,19 +14,13 @@ footer {
     color: white;
 }
 
-
+img .round{
+    border-radius: 7%;
+}
 
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
     min-height: 200px;
-}
-
-
-.well p {
-    font-family: 'Alegreya Sans';
-    font-style: regular;
-    font-size: 40px;
-    color: #063564 ;
 }
 
 .text{
@@ -43,12 +37,37 @@ footer {
     color: #063564 ;
 }
 
-.normal-font{
-    font-size: 30px;
-}
 .heading{
     font-weight: bold;
+    color: #063564;
+}
+
+
+.carousel-caption h3{
+    font-size: 50px;
+}
+
+
+.normal-text{
+    font-family: 'Alegreya Sans';
+    font-style: regular;
+    font-size: 18px;
     color: #063564 ;
+}
+
+.big-font{
+    font-size: 30px;
+}
+
+.list-points {
+    list-style: none;
+    text-align: left;
+}
+
+.list-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .buy-button{
